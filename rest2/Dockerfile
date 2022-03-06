@@ -4,6 +4,7 @@ RUN mkdir -p /software
 
 ADD . /software
 
+WORKDIR software
 RUN mvn package
 
 RUN cp -a target/rest2.jar /software/rest2.jar
