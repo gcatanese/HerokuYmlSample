@@ -1,2 +1,2 @@
-# Heroky Yml Sample
+# Heroku Yml Sample
 
