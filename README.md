@@ -48,7 +48,7 @@ Override the default application stack with `container`
   heroku stack:set container
 ```
 
-Star the deployment pipeline
+Start the deployment pipeline
 ```
   git push heroku main
 ```
