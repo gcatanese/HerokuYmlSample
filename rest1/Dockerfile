@@ -1,10 +1,10 @@
-FROM bellsoft/liberica-openjdk-alpine-musl:11
+FROM maven:3.5.2-jdk-11
 
 RUN mkdir -p /software
 
-ADD . /software/
+RUN mvn package
 
-RUN ls software
+RUN cp -a target/rest1.jar /software/rest1.jar
 
 CMD java -Dserver.port=$PORT $JAVA_OPTS -jar /software/rest1.jar
 
