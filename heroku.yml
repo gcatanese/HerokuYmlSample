@@ -5,3 +5,8 @@ build:
   docker:
     web: rest1/Dockerfile
     worker: rest2/Dockerfile
+# release
+  # skip: could be used for running scripts and/or copying resources
+
+# run
+  # skip: will use CMD from Dockerfile instead
