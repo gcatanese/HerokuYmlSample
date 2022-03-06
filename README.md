@@ -1,4 +1,4 @@
-# Heroku Yml Sample
+# Building Docker Images with heroku.yml
 
 Sample application to demonstrate `heroku.yml` usage
 
