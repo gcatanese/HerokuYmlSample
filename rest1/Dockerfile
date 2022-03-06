@@ -2,14 +2,9 @@ FROM bellsoft/liberica-openjdk-alpine-musl:11
 
 RUN mkdir -p /software
 
-RUN pwd
+ADD ./* /software/
 
-RUN ls -a
-
-ADD pom.xml /software/pom.xml
-
-
-COPY target/rest1.jar /software/rest1.jar
+RUN ls software
 
 CMD java -Dserver.port=$PORT $JAVA_OPTS -jar /software/rest1.jar
 
