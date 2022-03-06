@@ -2,7 +2,7 @@ FROM bellsoft/liberica-openjdk-alpine-musl:11
 
 RUN mkdir -p /software
 
-ADD ./* /software/
+ADD . /software/
 
 RUN ls software
 
