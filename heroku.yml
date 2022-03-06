@@ -1,0 +1,7 @@
+setup:
+  config:
+    MY_VARIABLE: SomeValue
+build:
+  docker:
+    web: rest1/Dockerfile
+    worker: rest2/Dockerfile
