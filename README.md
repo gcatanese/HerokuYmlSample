@@ -29,7 +29,7 @@ Verify the Git remote repositories
 Create the application **after** initializing the Git repository (see above)
 
 ```
-  heroku create herokuymlsample --manifest
+  heroku create herokuymlsample
 ```
 Verify again the remote to confirm heroku remotes are also defined
 
