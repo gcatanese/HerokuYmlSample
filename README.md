@@ -1,6 +1,8 @@
 # Building Docker Images with heroku.yml
 
-Sample application to demonstrate `heroku.yml` usage
+Sample application to demonstrate `heroku.yml` usage.
+
+This is an example discussed in  [Multiple Docker images on Heroku](https://medium.com/geekculture/multiple-docker-images-on-heroku-3270ed31f2e5).
 
 ### Git init
 
